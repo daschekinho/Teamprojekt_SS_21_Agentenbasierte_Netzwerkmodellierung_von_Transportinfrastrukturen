@@ -1,0 +1,105 @@
+from	to		
+30001	4753		30000
+30001	4752		
+30019	6241		
+30019	6258		
+30020	6306		
+30020	6241		
+30020	6258		
+30023	6306		
+30023	6241		
+30023	6258		
+30024	4333		
+30024	4341		
+30025	6973	Neuss	
+30025	7699		
+30025	7013		
+30027	9104	Köln-Niehl	
+30027	9041		
+30027	9034		
+30030	4459	Bottrop	
+30030	4474		
+30037	3809	HafenGersteinwerk	
+30037	3833		
+30038	203	Getmold	
+30046	4711	Dortmund	
+30046	4755		
+30051	9839	Godorf	
+30051	9838		
+30052	9070	Köln	
+30052	9096		
+30052	9103		
+30053	3772	Bergkamen	
+30053	3775		
+30055	246	Lübbecke	
+30057	3865	Hamm	
+30057	3869		
+30058	5394	Duisburg Neuenkamp	
+30058	5442		
+30059	5569	Oberhausen Concordia	
+30066	5466	Duisburg Südhafen	
+30066	5383		
+30066	6288		
+30068	6289	Duisburg Werkhafen HKM	
+30068	6284		
+30068	6288		
+30070	5466	Duisburg Kultushafen	
+30070	5383		
+30070	6288		
+30071	5462	Duisburg Hafen Rheinhausen	
+30071	6325		
+30072	3496	Wesel	
+30073	3511	Wesel2	
+30073	3512		
+30074	3709	Remondis	
+30075	5586	Mühlheim	
+30075	5593		
+30075	5565		
+30076	4319	Duisburg Südhafen Walsum	
+30076	4349		
+30077	4349	Duisburg Werkshafen Schweigern	
+30077	4384		
+30081	1817	Dortmund Südhafen	
+30082	702	Minden Osthafen	
+30083	316	Minden Westhafen	
+30083	681		
+30084	322	Minden Oberhafen	
+30084	317		
+30086	6271	Krefeld	
+30086	6279		
+30087	4654	Recklinghausen	
+30087	4637		
+30088	3703	Stdadthafen Lünen	
+30090	5442	Duisburg Parallelhafen	
+30092	413	Kanalhafen	
+30092	390		
+30094	3865		
+30094	3869		
+30095	4512	Am Westhafen	
+30096	4560	Gelsenkirchen Stadthafen	
+30096	5665		
+30106	8415	Hitdorfer Hafen	
+30106	8414		
+30107	4562	Raffineriehafen Gelsenkirchen	
+30107	4504		
+30108	10420	Hafen Bonn	
+30109	130	Uffeln	
+30110	5382	Duisburg	
+30110	5395		
+30110	5448		
+30111	9912	Niederkassel	
+30112	2475	Hafen Hiltrup	
+30113	3512	Hafen Emmelsum	
+30115	1856	Hafen Büscher	
+30115	1817		
+30116	4550	Hafen Grimberg	
+30120	439		
+30122	4390	Nordhafen Walsum	
+30122	4370		
+30124	4675	Castrop-Rauxel	
+30124	4677		
+30125	4627	Hafen Julia	
+30125	4670		
+30126	2246	Hafen Emmerich	
+30126	2245		
+30128	7018	Hafen Düsseldorf	

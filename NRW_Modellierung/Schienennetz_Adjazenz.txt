@@ -1,0 +1,68 @@
+from	to		
+20023	20068		Rhein
+20068	20071		
+20071	20066		
+20066	20070		
+20070	20090		
+20090	20058		
+20058	20110		
+20110	20077		
+20077	20076		
+20076	20122		
+20122	20024		
+20024	20113		
+20113	20073		
+20073	20072		
+20072	20126		
+20144	20092		Norden
+20092	20109		
+20109	20120		
+20120	20145		
+20145	20038		
+20038	20055		
+20112	20124		Rhein-Herne-Kanal
+20124	20087		
+20087	20125		
+20125	20148		
+20095	20116		
+20116	20096		
+20096	20107		
+20107	20030		
+20030	20149		
+20059	20110		
+20110	20058		
+20149	20059		
+20148	20095		Wanne Eickel hbf
+20149	20148		Oberhausen - WanneEickel
+20140	20148		Dortmund - WanneEickel
+20140	20150		Dortmund - Schwerte
+20150	20151		Vorhalle - Schwerte
+20131	20151		Vorhalle - Wuppertal
+20141	20150		UnnaOst - Schwerte
+20142	20141		Bönen - UnnaOst
+20141	20147		Bönen - Hamm
+20056	20147		Stadthafen Hamm - Hamm
+20057	20147		Ölhafen Hamm - Hamm
+20137	20150		CTS Kreuztal - Schwerte
+20143	20147		Gütersloh - Hamm
+20082	20143		Osthafen - Gütersloh
+20145	20143		Osnabrück - Gütersloh
+20079	20147		Stadthafen Münster - Hamm
+20079	20144		Münster - Twente
+20144	20092		Twente - Kanalhafen
+20092	20109		kanalhafen - Uffeln (Hafen)
+20079	20145		Münster - Osnabrück
+20079	20120		Münster - Dörenthe (Hafen)
+20055	20082		Lübbecke - Minden
+20137	20052		CTS  - Deutz
+20052	20130		
+20130	20136		
+20130	20133		
+20027	20133		Köln Niehl - Terminal Köln Nord
+20134	20125		Duisport - Duisport
+20134	20132		Duisport - Rheinhafen
+20135	20132		Duisport - Rheinhafen Terminal
+20132	20111		Rheinhafen Terminal - Rheinhafen
+20138	20034		UTM Marl - Hafen ChemiePark Marl
+20138	30035		
+20131	20127		

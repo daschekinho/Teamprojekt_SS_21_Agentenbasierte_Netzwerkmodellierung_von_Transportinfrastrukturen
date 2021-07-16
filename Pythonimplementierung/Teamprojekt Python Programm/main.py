@@ -15,24 +15,24 @@ time_start_proc = time.process_time()
 # Default-Einstellungen des Netzwerks, die über folgende Flags gesteuert werden
 n_timesteps = 15+1 # Anzahl an Perioden
 n_networks = 1 # Anzahl an Netzwerken, die gebildet werden sollen; es wird empfohlen immer eins aufzubauen
-dv = 0.05 # distrubtion_value; Wahrscheinlichkeit, mit der ein Knoten disrupted wird, falls dv=0 gibt es keine Disruptions
+dv = 0.1 # distrubtion_value; Wahrscheinlichkeit, mit der ein Knoten disrupted wird, falls dv=0 gibt es keine Disruptions
 dt = 3 # disruption_time; bestimmt wie lange die Disruptions andauern
 dp = 3 # disruption_period; bestimmt dass nur jede dp-te Periode es zu Disruptions kommen kann
-lyr_similar_load = False # falls True, wird zu Beginn durch die Anzahl an generierten Agenten der Layer ein Loadausgleich unter den Layern durchgeführt
-ag_gen_laufzeit = True # falls True werden Agenten zur Laufzeit bei der Periode generiert und es findet automatisch eine Layerloadanpassung nach lyr_similar_load pro Periode statt
+lyr_similar_load = True # falls True, wird zu Beginn durch die Anzahl an generierten Agenten der Layer ein Loadausgleich unter den Layern durchgeführt
+ag_gen_laufzeit = False # falls True werden Agenten zur Laufzeit bei der Periode generiert und es findet automatisch eine Layerloadanpassung nach lyr_similar_load pro Periode statt
 gen_at_dis_node = True # falls True, können neue Agentena an disrupted Knoten generiert werden
 bool_perf_ag = False # falls True, sind die Agenten perfekte Agenten
-dc_verändern = True # falls True, haben bei einer Disruption die Knoten keinen Totalausfalls, sondern verringern ihre Servicerate und Bufferkapazität
+dc_verändern = False # falls True, haben bei einer Disruption die Knoten keinen Totalausfalls, sondern verringern ihre Servicerate und Bufferkapazität
 dc_aufhebung = False # falls True, wird eine Dirsruption nach dc_verändern schrittweise aufgehoben
-dc_buffer = 0.3 # bestimmt zu wie viel Prozent die Bufferkapazität nach dc_verändern eingeschränkt werden sollen
-dc_service_rate = 0.3 # bestimmt zu wie viel Prozent die Servierate nach dc_verändern eingeschränkt werden sollen
+dc_buffer = 0.25 # bestimmt zu wie viel Prozent die Bufferkapazität nach dc_verändern eingeschränkt werden sollen
+dc_service_rate = 0.25 # bestimmt zu wie viel Prozent die Servierate nach dc_verändern eingeschränkt werden sollen
 default_network = 'ja' # falls ungleich 'nein', so kommt es zu keiner Userabfrage über die Konsole und das Netzwerk wird nach den Defaultwerten aufgebaut
 
 # Layer-Eigenschaften definieren:
 # id, name, number_of_nodes, service_rate, buffer, connectivity, Transportzeit, load, probability_gen_agent, hubs, colour in layerplot, max_queue_cost)
 ly1 = Layer(id=1, name='water', nn=15, sr=640, bu=400, connect=0.01, ed_time=5, ld=200, p_gen_agent=0.5, hubs=3, colour='lightblue', max_queue_cost=5)
 ly2 = Layer(id=2, name='train', nn=30, sr=640, bu=500, connect=0.05, ed_time=1, ld=200, p_gen_agent=0.5, hubs=6, colour='r', max_queue_cost=1)
-ly3 = Layer(id=3, name='street', nn=150, sr=640, bu=1000, connect=0.01, ed_time=2, ld=10, p_gen_agent=0.5, hubs=10, colour='yellow', max_queue_cost=2)
+ly3 = Layer(id=3, name='street', nn=150, sr=640, bu=1000, connect=0.01, ed_time=2, ld=1, p_gen_agent=0.5, hubs=10, colour='yellow', max_queue_cost=2)
 # Beispiel für weitere Layer:
 # ly4 = Layer(id=4, name='air', nn=10, sr=640, bu=800, connect=0.3, ed_time=2, ld=100, p_gen_agent=0.5, hubs=4, colour='green', max_queue_cost=7)
 # ly5 = Layer(id=5, name='pipeline', nn=30, sr=640, bu=300, connect=0.3, ed_time=4, ld=5, p_gen_agent=0.5, hubs=3, colour='pink', max_queue_cost=2)
